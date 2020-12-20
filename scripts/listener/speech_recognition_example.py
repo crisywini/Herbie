@@ -15,6 +15,7 @@ output = recognizer.recognize_google(audio,language='es-CO')
 print("What you said was: ")
 print(output)
 
+
 if 'dos' in output:
     output = 2
 
