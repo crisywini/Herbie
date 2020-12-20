@@ -1,6 +1,7 @@
 from scripts.searchEngine import wikipedia_script as wiki
 from scripts.searchEngine import wolframalpha_script as wolf
 from scripts.searchEngine.Exceptions.Wiki_Exception import PageFoundException, GeoFoundException
+
 class SearchEngine:
 
     def __init__(self, query=''):
